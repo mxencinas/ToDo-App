@@ -109,9 +109,9 @@ function startEdit(task, span, li, editBtn) {
   // Reemplazar span por el input
   li.replaceChild(input, span);
   
-  // --- CAMBIO AQUÍ: Ocultar el botón editar en lugar de solo deshabilitarlo ---
+  // Ocultar el botón editar en lugar de solo deshabilitarlo
   editBtn.style.display = "none"; 
-  // --------------------------------------------------------------------------
+ 
 
   input.focus();
 
