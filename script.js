@@ -36,8 +36,7 @@ function createTask(tarea){
     btnEditar.textContent = 'Editar';
     btnEditar.className = 'btn-editar';
     btnEditar.onclick = function() {
-        alert('Funcionalidad de Edición pendiente');
-        // TODO
+      itemTask.contentEditable("input")
     };
 
     // 5. Crear el botón de eliminar

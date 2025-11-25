@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="title-container">
-        <h1 id="id-titulo">Lista de Tareas</h1>
-    </div>
-    <div id="task-container">
-        
-    </div>
-    
+  <main class="app">
+    <header class="header">
+      <h1 id="id-titulo">Lista de Tareas</h1>
+    </header>
 
+    <section class="new-task">
+      <input id="task-input" type="text" placeholder="Escribe una tarea y presiona Enter" />
+      <button id="create-btn">Crear</button>
+    </section>
 
-    <script src="script.js">
-    </script>
+    <section class="tasks">
+      <ul id="task-list" class="task-list"></ul>
+    </section>
+  </main>
+
+  <script src="../script/app.js"></script>
 </body>
 </html>
