@@ -1,0 +1,33 @@
+<mvc:XMLView controllerName="artech-capacitacion-fiori.controller.App"
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+
+    <Shell>
+        <App>
+            <Page>
+                <Title text="Ejercicio - Clase 2" 
+                    level="H1" 
+                    class="sapUiMediumMarginBegin sapUiMediumMarginTop" 
+                    wrapping="true" />
+    
+                <VBox class="sapUiContentPadding"> 
+                    
+                    <Label text="Nombre:" 
+                        labelFor="inputName"/>
+                        
+                    <Input 
+                        id="inputName"
+                        width="20rem" 
+                        placeholder="Introduce el nombre"/>
+                    
+                    <Button 
+                        text="Saludar" 
+                        press=".onClick" 
+                        type="Emphasized" 
+                        class="sapUiTinyMarginTop"/> 
+                        
+                </VBox>
+            </Page>
+        </App>
+    </Shell>
+</mvc:XMLView>
