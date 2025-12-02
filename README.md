@@ -1,5 +1,3 @@
----
-
 # 📘 Proyecto SAP UI5 Freestyle desde Cero (Sin Plantilla)
 
 Este documento explica paso a paso cómo crear un proyecto **SAP UI5 Freestyle** completamente desde cero, sin utilizar plantillas. Incluye instalación, configuración, estructura del proyecto y una plantilla funcional lista para usar.
