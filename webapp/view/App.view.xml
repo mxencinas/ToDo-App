@@ -21,7 +21,7 @@
                         placeholder="Introduce el nombre"/>
                     
                     <Button 
-                        text="Saludar" 
+                        text="{i18n>buttonGreeting}" 
                         press=".onClick" 
                         type="Emphasized" 
                         class="sapUiTinyMarginTop"/> 
